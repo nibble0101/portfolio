@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-bg-color: #010101;
+  --header-color: #33aae1;
+  --body-color: whitesmoke;
+  --body-bg-color: #303145;
+  --footer-bg-color: #010101;
+  --footer-color: #33aae1;
+  --card-bg-color-1: #2c303b;
+  --card-bg-color-2: #1d1e22;
+  --card-color: #43a8b2;
+  --main-bg-color: #1e1e26;
+
+}
+body{
+    background-color: var(--body-bg-color) ;
+}
+.header{
+    background-color: var(--header-bg-color);
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+.header ul li a{
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--header-color) ;
+}
+
+.main{
+    min-height: 100vh;
+}
+
+
+.footer{
+    background-color: var(--footer-bg-color);
+    color: var(--footer-color);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.footer .social-media-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social-media-wrapper div{
+    padding: 1em;
+    background-color: var(--card-bg-color-1);
+    margin: 1em;
+}
+.footer .copy-right{
+    color: whitesmoke;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1em 0;
+}
+.footer .copy-right .copy-right-symbol{
+    color: brown;
+}
