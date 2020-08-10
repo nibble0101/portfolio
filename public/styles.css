@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *,
 *::before,
 *::after {
@@ -10,7 +12,8 @@
   --header-bg-color: #010101;
   --header-color: #33aae1;
   --body-color: whitesmoke;
-  --body-bg-color: #303145;
+  --body-bg-color-1: #303145;
+  --body-bg-color-2: #171717;
   --footer-bg-color: #010101;
   --footer-color: #33aae1;
   --card-bg-color-1: #2c303b;
@@ -20,7 +23,8 @@
 
 }
 body{
-    background-color: var(--body-bg-color) ;
+    background-color: var(--body-bg-color-2) ;
+    font-family: 'Montserrat', sans-serif;
 }
 .header{
     background-color: var(--header-bg-color);
@@ -40,6 +44,13 @@ body{
 
 .main{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 1em;
+    /* background-color: var(--main-bg-color); */
 }
 
 
@@ -59,10 +70,20 @@ body{
     justify-content: center;
     align-items: center;
 }
-.footer .social-media-wrapper div{
+.footer .social-media-wrapper .facebook,
+.footer .social-media-wrapper .twitter,
+.footer .social-media-wrapper .github
+{
     padding: 1em;
     background-color: var(--card-bg-color-1);
     margin: 1em;
+    border-radius: 50%;
+    transition: all 100ms linear;
+}
+.footer .social-media-wrapper .facebook:hover,
+.footer .social-media-wrapper .twitter:hover,
+.footer .social-media-wrapper .github:hover{
+    background-color: var(--main-bg-color);
 }
 .footer .copy-right{
     color: whitesmoke;
