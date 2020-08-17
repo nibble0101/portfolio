@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
 
 *,
 *::before,
@@ -8,10 +8,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: simplifica;
+  src: url(SIMPLIFICA\ Typeface.ttf);
+}
 :root {
   --header-bg-color: #010101;
   --header-color: #33aae1;
   --body-color: whitesmoke;
+  --code-bg-color: #282c35;
   --body-bg-color-1: #303145;
   --body-bg-color-2: #171717;
   --footer-bg-color: #010101;
@@ -20,77 +25,92 @@
   --card-bg-color-2: #1d1e22;
   --card-color: #43a8b2;
   --main-bg-color: #1e1e26;
+}
+body {
+  background-color: var(--body-bg-color-2);
+  font-family: "Montserrat", sans-serif;
+  font-family: simplifica;
+}
+.header {
+  background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+.logo {
+  color: brown;
+}
 
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }
-body{
-    background-color: var(--body-bg-color-2) ;
-    font-family: 'Montserrat', sans-serif;
+
+.header ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: whitesmoke;
 }
-.header{
-    background-color: var(--header-bg-color);
+.about-section .name {
+  color: brown;
 }
-.header ul{
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+  min-height: 10vh;
+  color: whitesmoke;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+}
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 10vh;
+    list-style-type: none;
 }
-.header ul li a{
-    display: block;
+.footer ul li{
     padding: 1em;
+}
+.footer ul li a{
     text-decoration: none;
-    color: var(--header-color) ;
+    color: #303145;
 }
-
-.main{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-    font-size: 1em;
-    /* background-color: var(--main-bg-color); */
+.laptop{
+    color: #303145;
 }
-
-
-.footer{
-    background-color: var(--footer-bg-color);
-    color: var(--footer-color);
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    
+.social-media-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
 }
-.footer .social-media-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.fab {
+  padding: 1em;
+  color: var(--body-bg-color-1);
 }
-.footer .social-media-wrapper .facebook,
-.footer .social-media-wrapper .twitter,
-.footer .social-media-wrapper .github
-{
-    padding: 1em;
-    background-color: var(--card-bg-color-1);
-    margin: 1em;
-    border-radius: 50%;
-    transition: all 100ms linear;
+.footer .copy-right {
+  color: whitesmoke;
+  font-size: smaller;
+  padding: 1em 0;
+  text-align: center;
 }
-.footer .social-media-wrapper .facebook:hover,
-.footer .social-media-wrapper .twitter:hover,
-.footer .social-media-wrapper .github:hover{
-    background-color: var(--main-bg-color);
-}
-.footer .copy-right{
-    color: whitesmoke;
-    font-size: smaller;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 1em 0;
-}
-.footer .copy-right .copy-right-symbol{
-    color: brown;
+.footer .copy-right .copy-right-symbol {
+  color: brown;
 }

@@ -3,13 +3,13 @@ function Menu(props) {
   return (
     <ul className="menu">
       <li>
-        <a href="#"> About </a>
+        <a href="#"> ABOUT </a>
       </li>
       <li>
-        <a href="#"> Stack </a>
+        <a href="#"> STACK </a>
       </li>
       <li>
-        <a href="#"> Contact </a>
+        <a href="#"> CONTACT </a>
       </li>
       <li>
         <a href="#"> CV </a>

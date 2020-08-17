@@ -5,7 +5,7 @@ function CopyRight(props) {
   return (
     <p className="copy-right">
       {year > 2020 ? `2020 - ${year}` : 2020}
-      <span className="copy-right-symbol"> &#169;</span> Joseph Mawa
+      <span className="copy-right-symbol"> &#169;</span> JOSEPH MAWA
     </p>
   );
 }
