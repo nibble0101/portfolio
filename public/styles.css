@@ -14,7 +14,8 @@
 }
 :root {
   --header-bg-color: #010101;
-  --header-color: #33aae1;
+  --header-color-1: #33aae1;
+  --header-color-2: #6cc6ac;
   --body-color: whitesmoke;
   --code-bg-color: #282c35;
   --body-bg-color-1: #303145;
@@ -28,7 +29,6 @@
 }
 body {
   background-color: var(--body-bg-color-2);
-  font-family: "Montserrat", sans-serif;
   font-family: simplifica;
 }
 .header {
@@ -41,7 +41,13 @@ body {
 .logo {
   color: brown;
 }
-
+.logo .surname-text{
+    color: var(--header-color-1);
+}
+.logo .fa-laptop{
+    font-size: 16px;
+    color: burlywood;
+}
 .header ul {
   display: flex;
   justify-content: center;
@@ -53,7 +59,7 @@ body {
   display: block;
   padding: 1em;
   text-decoration: none;
-  color: whitesmoke;
+  color: var(--header-color-2);
 }
 .about-section .name {
   color: brown;
@@ -61,12 +67,41 @@ body {
 
 .main {
   min-height: 100vh;
+  background-color: var(--main-bg-color);
   display: flex;
   justify-content: center;
   align-items: center;
   color: whitesmoke;
 }
 
+.stack{
+   width: 70%;
+   padding: 1em;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto;
+   gap: 1em;
+    
+}
+.stack .fab, .stack .fas{
+    color: #43a8b2;
+    
+    
+}
+.individual-tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-bg-color);
+}
+
+.individual-tech p{
+    text-align: center;
+    padding: 1em;
+    color: whitesmoke;
+}
 .footer {
   background-color: var(--footer-bg-color);
   min-height: 10vh;
@@ -74,28 +109,19 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 100;
 }
-
+.footer .fa-laptop{
+    color: burlywood;
+}
 .footer .wrapper{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
+.footer .wrapper .logo{
+    font-weight: 100;
+    font-size: 16px;
 }
-.footer ul li{
-    padding: 1em;
-}
-.footer ul li a{
-    text-decoration: none;
-    color: #303145;
-}
-.laptop{
-    color: #303145;
-}
+
 .social-media-wrapper {
   display: flex;
   justify-content: flex-end;

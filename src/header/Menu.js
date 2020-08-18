@@ -3,16 +3,19 @@ function Menu(props) {
   return (
     <ul className="menu">
       <li>
-        <a href="#"> ABOUT </a>
+        <a href="#home"> HOME</a>
       </li>
       <li>
-        <a href="#"> STACK </a>
+        <a href="#about"> ABOUT </a>
       </li>
       <li>
-        <a href="#"> CONTACT </a>
+        <a href="#projects"> PROJECTS</a>
       </li>
       <li>
-        <a href="#"> CV </a>
+        <a href="#contact"> CONTACT </a>
+      </li>
+      <li>
+        <a href="#cv"> CV </a>
       </li>
     </ul>
   );

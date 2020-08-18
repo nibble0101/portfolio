@@ -5,7 +5,12 @@ import Logo from "./Logo";
 function Header(props) {
   return (
     <header className="header">
-      <Logo />
+      <Logo>
+        <h1>
+          MJ. <span className="surname-text">MAWA</span>{" "}
+          <i class="fas fa-laptop"></i>
+        </h1>
+      </Logo>
       <Menu />
     </header>
   );
