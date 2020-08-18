@@ -3,7 +3,7 @@ import React from "react";
 function Image(props) {
   return (
     <div className="image-wrapper">
-      <img src={props.projectUrl} alt={props.altText} />
+      <a href = {props.projectUrl}> <img src={props.imageUrl} alt={props.altText}/> </a>
     </div>
   );
 };

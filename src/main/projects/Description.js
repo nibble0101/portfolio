@@ -6,7 +6,7 @@ function Description(props) {
       <p className="image-descrition"> {props.description} </p>
       <p className="source-code-link">
         <a href={props.sourceCodeUrl}>
-          Source Code <i class="fab fa-github"></i>
+          Source Code <i className="fab fa-github"></i>
         </a>
       </p>
     </div>

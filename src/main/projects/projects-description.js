@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "coviWeb",
-    image: "./images/coviweb.png",
+    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/coviweb.png?raw=true",
     altText: "coviWeb",
     projectUrl: "https://coviweb.netlify.app/",
     sourceCodeUrl: "https://github.com/nibble0101/coviweb",
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     name: "filmMaze",
-    image: "./images/filmmaze.png",
+    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/filmmaze.png?raw=true",
     altText: "filMaze",
     projectUrl: "https://filmmaze.netlify.app/",
     sourceCodeUrl: "https://github.com/nibble0101/FilmMaze",
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     name: "cloudyGem",
-    image: "./images/cloudygem.png",
+    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/cloudygem.png?raw=true",
     altText: "cloudyGem",
     projectUrl: "https://cloudygem.netlify.app/",
     sourceCodeUrl: "https://github.com/nibble0101/cloudyGem",
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     name: "whizzNiac",
-    image: "./images/whizzniac.png",
+    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/whizzniac.png?raw=true",
     altText: "whizzNiac",
     projectUrl: "https://whizzniac.netlify.app/",
     sourceCodeUrl: "https://github.com/nibble0101/whizzniac",
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     name: "html codes",
-    image: "./images/htmlcodegenerator.png",
+    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/htmlcodegenerator.png?raw=true",
     altText: "htmlcodegenerator",
     projectUrl: "https://htmlcodegenerator.netlify.app/",
     sourceCodeUrl: "",
