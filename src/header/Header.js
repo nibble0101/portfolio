@@ -8,7 +8,7 @@ function Header(props) {
       <Logo>
         <h1>
           MJ. <span className="surname-text">MAWA</span>{" "}
-          <i class="fas fa-laptop"></i>
+          <i className="fas fa-laptop"></i>
         </h1>
       </Logo>
       <Menu />

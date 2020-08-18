@@ -2,16 +2,14 @@ import React from "react";
 import projectDescription from "./projects-description";
 import Image from "./Image";
 import Description from "./Description";
-import coviwebImage from "./images/coviweb.png";
-let project = projectDescription[0];
 function Projects(props) {
   return (
     <section className="projects-wrapper">
      <h2 id = "projects">PROJECTS</h2>
-      <div className="inner-wrapper">
+      <div className="card-wrapper">
         {projectDescription.map((project) => {
           return (
-            <div key={project.key} className = "innermost-wrapper">
+            <div key={project.key} className = "project">
               <Image
                 projectUrl={project.projectUrl}
                 imageUrl={project.imageUrl}
