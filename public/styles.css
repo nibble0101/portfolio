@@ -59,12 +59,15 @@ body {
   display: block;
   padding: 1em;
   text-decoration: none;
+  letter-spacing: 2px;
   color: var(--header-color-2);
 }
 .about-section .name {
   color: brown;
 }
-
+.about-section h1{
+    letter-spacing: 5px;
+}
 .main {
   min-height: 100vh;
   background-color: var(--main-bg-color);
