@@ -1,7 +1,11 @@
 import React from "react";
 
 function Contact(props) {
-    return null
+    return <section>
+        <form action = "POST" onSubmit = {() => null} >
+             
+        </form>
+    </section>
     
 }
 
