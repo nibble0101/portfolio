@@ -1,15 +1,13 @@
 import React from "react";
+import Home from "./home/Home";
 import About from "./about/About";
-import Stack from "./stack/Stack";
 import Projects from "./projects/Projects";
 
 function Main(props) {
   return (
     <React.Fragment>
-      <section className="main">
-        <About />
-      </section>
-      <Stack />
+      <Home />
+      <About />
       <Projects />
     </React.Fragment>
   );

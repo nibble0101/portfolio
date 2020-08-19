@@ -52,6 +52,7 @@ body {
     font-size: 16px;
     color: burlywood;
 }
+
 .header ul {
   display: flex;
   justify-content: center;
@@ -66,13 +67,17 @@ body {
   letter-spacing: 2px;
   color: var(--header-color-2);
 }
+.about-section{
+    font-size: 1.2em;
+}
 .about-section .name {
   color: brown;
 }
 .about-section h1{
     letter-spacing: 5px;
+   
 }
-.main {
+.home {
   min-height: 100vh;
   background-color: var(--main-bg-color);
   display: flex;
@@ -80,11 +85,28 @@ body {
   align-items: center;
   color: whitesmoke;
 }
-
+.about-wrapper{
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+    font-size: 1.2em;
+}
+.about-wrapper .description{
+    color: whitesmoke;
+    font-weight: 500;
+    
+}
+.about-wrapper .description h2{
+    text-align: center;
+    padding: 1em 0em;
+    letter-spacing: 3px;
+    font-family: simplifica;
+}
+.about-wrapper .description p{
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 1em 0em;
+}
 .stack{
-   width: 70%;
-   padding: 1em;
-   margin: auto;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: auto;
@@ -122,6 +144,7 @@ body {
     align-items: center;
     color: whitesmoke;
     font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1.2em;
 }
 .projects-wrapper a{
     color: var(--header-color-2);
@@ -165,10 +188,15 @@ body {
 .project{
     background-color: var(--main-bg-color);
 }
-
+.description-paragraph{
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+}
 .description-wrapper p{
     text-align: center;
     padding: 1em;
+    
 }
 
 /* Styling Projects footer*/

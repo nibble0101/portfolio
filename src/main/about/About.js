@@ -1,14 +1,13 @@
 import React from "react";
+import Description from "./Description";
+import Stack from "./Stack";
 
 function About(props) {
   return (
-    <div className="about-section">
-      <h1>
-        HI. MY NAME IS <span className = "name">JOSEPH MAWA</span>
-      </h1>
-      <p>I AM A FULL STACK DEVELOPER!</p>
+    <div className="about-wrapper">
+      <Description />
+      <Stack />
     </div>
   );
 }
-
 export default About;

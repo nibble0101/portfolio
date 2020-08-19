@@ -1,4 +1,5 @@
 import React from "react";
+import Description from "./Description";
 
 const stack = [
   { name: "HTML5", class: "fab fa-html5", id: "html5" },
