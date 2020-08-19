@@ -10,7 +10,7 @@ const projects = [
   },
   {
     name: "filmMaze",
-    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/filmmaze.png?raw=true",
+    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/filmmaze.jpg?raw=true",
     altText: "filMaze",
     projectUrl: "https://filmmaze.netlify.app/",
     sourceCodeUrl: "https://github.com/nibble0101/FilmMaze",
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     name: "whizzNiac",
-    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/whizzniac.png?raw=true",
+    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/whizzniac.jpg?raw=true",
     altText: "whizzNiac",
     projectUrl: "https://whizzniac.netlify.app/",
     sourceCodeUrl: "https://github.com/nibble0101/whizzniac",
