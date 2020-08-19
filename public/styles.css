@@ -28,6 +28,9 @@
   --card-color: #43a8b2;
   --main-bg-color: #1e1e26;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
   background-color: var(--body-bg-color-2);
   font-family: simplifica;
@@ -89,9 +92,10 @@ body {
     
 }
 .stack .fab, .stack .fas{
-    color: #43a8b2;
-    
-    
+    color: #43a8b2;   
+}
+.stack .fab{
+    padding: 1em;
 }
 .individual-tech{
     display: flex;
@@ -116,14 +120,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: whitesmoke;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+.projects-wrapper a{
+    color: var(--header-color-2);
+    text-decoration: none;
+    transition: all 1000ms linear;
+}
+.projects-wrapper a:hover{
+    color: var(--header-color-1);
+}
+.projects-wrapper h2, .projects-wrapper h3{
+    font-family: simplifica;
+    text-align: center;
+    padding: 1em;
+    letter-spacing: 2px;
 }
 .card-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px;
     grid-template-rows: auto;
     gap: 1em;
     padding: 1em;
+    width: 70%;
+    margin: auto;
+
 
 }
 .image-wrapper a{
@@ -141,8 +163,14 @@ body {
 }
 
 .project{
-    background-color: red;
+    background-color: var(--main-bg-color);
 }
+
+.description-wrapper p{
+    text-align: center;
+    padding: 1em;
+}
+
 /* Styling Projects footer*/
 .footer {
   background-color: var(--footer-bg-color);
@@ -169,7 +197,7 @@ body {
   justify-content: flex-end;
   padding: 1em;
 }
-.fab {
+.footer .fab {
   padding: 1em;
   color: var(--body-bg-color-1);
 }

@@ -16,8 +16,10 @@ function Projects(props) {
                 altText={project.altText}
               />
               <Description
+                name = {project.name}
                 description={project.description}
                 sourceCodeUrl={project.sourceCodeUrl}
+                projectUrl={project.projectUrl}
               />
             </div>
           );
