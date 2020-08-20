@@ -13,8 +13,15 @@ function Description() {
         development. At school, i studied Physics and Education. I worked as a
         high school teacher before quitting to learn web development full time.
         I am always working towards making myself a better developer. In my
-        spare time, you will either find me watching a movie or listening to
-        music.
+        spare time, you will either find me watching a movie or listening to {" "}
+        <a
+          href="https://www.recklessradio.ug/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          music
+        </a>
+        .
       </p>
       <h2>SKILLS</h2>
     </section>

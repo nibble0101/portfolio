@@ -9,9 +9,22 @@ function Projects(props) {
       <h2 id="projects">PROJECTS</h2>
       <p className="description-paragraph">
         Below are some of the projects i have completed. I have plenty of small
-        learning projects on <a href="https://codepen.io/"> codepen </a>{" "}
+        learning projects on{" "}
+        <a href="https://codepen.io/" target="_blank" rel="noreferrer noopener">
+          {" "}
+          codepen{" "}
+        </a>{" "}
         completed as part of <a href={urlFCC}> Free Code Camp Curriculum </a>.
-        You can view them <a href="https://codepen.io/nibble0101"> here </a>.
+        You can view them{" "}
+        <a
+          href="https://codepen.io/nibble0101"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          {" "}
+          here{" "}
+        </a>
+        .
       </p>
       <div className="card-wrapper">
         {projectDescription.map((project) => {

@@ -6,18 +6,38 @@ function SocialMedia() {
     <div className="wrapper">
       <Logo>
         <p>
-          MJ. <span className = "surname-text"> MAWA </span> <i class="fas fa-laptop"></i>
+          MJ. <span className="surname-text"> MAWA </span>
+          <i class="fas fa-laptop"></i>
         </p>
       </Logo>
       <div className="social-media-wrapper">
-        <div className="twitter">
-          <i className="fab fa-twitter" aria-hidden="true"></i>
+        <div className="twitter" >
+          <a href="https://twitter.com/MJMAWA" target="_blank" rel="noreferrer noopener">
+            <i className="fab fa-twitter" aria-hidden="true"></i>
+          </a>
         </div>
         <div className="facebook">
-          <i className="fab fa-facebook" aria-hidden="true"></i>
+          <a href="#" target="_blank" rel="noreferrer noopener">
+            <i className="fab fa-facebook" aria-hidden="true"></i>
+          </a>
         </div>
         <div className="github">
-          <i className="fab fa-github" aria-hidden="true"></i>
+          <a
+            href="https://github.com/nibble0101"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i className="fab fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div className="codepen">
+          <a
+            href="https://codepen.io/nibble0101"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i class="fab fa-codepen"></i>
+          </a>
         </div>
       </div>
     </div>

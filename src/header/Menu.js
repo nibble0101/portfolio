@@ -15,7 +15,13 @@ function Menu(props) {
         <a href="#contact"> CONTACT </a>
       </li>
       <li>
-        <a href="#cv"> CV </a>
+        <a
+          href="https://dev.to/nibble0101"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          BLOG
+        </a>
       </li>
     </ul>
   );
