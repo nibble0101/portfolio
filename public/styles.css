@@ -42,6 +42,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 1em;
+  position: relative;
 }
 .logo {
   color: brown;
@@ -67,6 +68,14 @@ body {
   text-decoration: none;
   letter-spacing: 2px;
   color: var(--header-color-2);
+  transition: color 1000ms linear;
+}
+.header ul li a:hover{
+    color: brown;
+}
+.hamburger-menu{
+    display: none;
+    cursor: pointer;
 }
 .about-section{
     font-size: 1.2em;
@@ -166,7 +175,7 @@ body {
 }
 .card-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 1em;
     padding: 1em;
@@ -219,13 +228,13 @@ body {
 }
 form{
     padding: 1em;
-    width: 60%;
+    width: 80%;
     margin: auto;
     background-color: var(--main-bg-color);
 }
 form input, textarea{
     display: block;
-    width: 60%;
+    width: 90%;
     padding: 1em;
     margin: 1em auto;
     border: 1px solid transparent;
@@ -275,4 +284,70 @@ min-height: 30vh;
 }
 .footer .copy-right .copy-right-symbol {
   color: brown;
+}
+
+
+@media screen and (max-width: 800px){
+    .hamburger-menu{
+        display: block;
+    }
+    .header{
+        padding: 1em;
+    }
+   .header ul.menu{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+   .header ul.display-menu{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100vw;
+       height: 100vh;
+       background-color: #171717;
+       
+   }
+
+   .card-wrapper{
+       width: 95%;
+   }
+   .contact-form-wrapper{
+       width: 95%;
+   }
+   .description-paragraph{
+      width: 95%;
+   }
+   .about-wrapper{
+       width: 95%;
+   }
+   .card-wrapper{
+    grid-template-columns: 1fr;
+}
+  .lock-scroll{
+      overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 650px){
+    .contact-form-wrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .stack{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-section{
+        font-size: 1em;
+    }
+    .about-section h1{
+        letter-spacing: 1px;
+    }
+    .footer .fab{
+        padding: 5px;
+    }
 }
