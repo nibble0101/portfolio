@@ -4,7 +4,7 @@ This is my portfolio. It is a Single Page Application(SPA) built using [React.js
 
 ## Dependencies
 
-This is a Single Page Application(SPA) built using [React.js](https://reactjs.org/) and CSS. For details of dependencies, check `package.json` file.
+This application was built using [React.js](https://reactjs.org/) and CSS. For details of dependencies, check `package.json` file.
 
 ## Live Project
 
