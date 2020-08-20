@@ -3,6 +3,7 @@ import HamburgerMenu from "react-hamburger-menu";
 function Menu(props) {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef();
+  const activeMenuRef = useRef();
   const hamburgerClickHandle = useCallback((e) => {
     setIsOpen((prevState) => !prevState);
     menuRef.current.classList.toggle('display-menu');
@@ -14,8 +15,14 @@ function Menu(props) {
         menuRef.current.classList.toggle('display-menu');
         document.body.classList.toggle('lock-scroll');
         setIsOpen((prevState) => !prevState);
+        if(activeMenuRef.current){
+            activeMenuRef.current.classList.toggle('bg-color');
+        }
+        activeMenuRef.current = e.target.parentElement;
+        activeMenuRef.current.classList.add("bg-color")
        }
   }, [])
+  
   return (
     <React.Fragment>
       <ul className="menu" ref = {menuRef} onClick = {menuClickHandle} >

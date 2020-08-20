@@ -61,7 +61,13 @@ body {
   align-items: center;
   list-style-type: none;
 }
-
+/* Styling active menu  */
+.header ul li.bg-color{
+    background-color: grey;
+}
+.header ul li.bg-color a{
+    color: skyblue;
+}
 .header ul li a {
   display: block;
   padding: 1em;

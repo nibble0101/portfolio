@@ -7,7 +7,7 @@ function SocialMedia() {
       <Logo>
         <p>
           MJ. <span className="surname-text"> MAWA </span>
-          <i class="fas fa-laptop"></i>
+          <i className="fas fa-laptop" aria-hidden = "true"></i>
         </p>
       </Logo>
       <div className="social-media-wrapper">
@@ -36,7 +36,7 @@ function SocialMedia() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <i class="fab fa-codepen"></i>
+            <i className="fab fa-codepen" aria-hidden = "true"></i>
           </a>
         </div>
       </div>
