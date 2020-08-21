@@ -116,10 +116,14 @@ body {
   border-radius: 10px;
   transition: background-color 1000ms linear, color 1000ms linear 1000ms;
   cursor: pointer;
+  
 }
 .arrow-button:hover {
   background-color: brown;
   color: yellowgreen;
+}
+.arrow-button:focus{
+    outline: 1px solid var(--main-bg-color);
 }
 .inner-wrapper {
   position: relative;
