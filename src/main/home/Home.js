@@ -1,4 +1,5 @@
 import React from "react";
+import Socials from "../../footer/Socials";
 
 function Home(props) {
   return (
@@ -14,6 +15,7 @@ function Home(props) {
           <span className="inner-wrapper">&#8595;</span>
         </button>
       </div>
+      <Socials />
     </section>
   );
 }

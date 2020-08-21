@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../header/Logo";
+import Socials from "./Socials";
 
 function SocialMedia() {
   return (
@@ -7,39 +8,10 @@ function SocialMedia() {
       <Logo>
         <p>
           MJ. <span className="surname-text"> MAWA </span>
-          <i className="fas fa-laptop" aria-hidden = "true"></i>
+          <i className="fas fa-laptop" aria-hidden="true"></i>
         </p>
       </Logo>
-      <div className="social-media-wrapper">
-        <div className="twitter" >
-          <a href="https://twitter.com/MJMAWA" target="_blank" rel="noreferrer noopener">
-            <i className="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-        </div>
-        <div className="facebook">
-          <a href="#" target="_blank" rel="noreferrer noopener">
-            <i className="fab fa-facebook" aria-hidden="true"></i>
-          </a>
-        </div>
-        <div className="github">
-          <a
-            href="https://github.com/nibble0101"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i className="fab fa-github" aria-hidden="true"></i>
-          </a>
-        </div>
-        <div className="codepen">
-          <a
-            href="https://codepen.io/nibble0101"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i className="fab fa-codepen" aria-hidden = "true"></i>
-          </a>
-        </div>
-      </div>
+      <Socials />
     </div>
   );
 }
