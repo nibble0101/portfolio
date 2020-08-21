@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 
 function Home(props) {
   return (
@@ -9,6 +8,11 @@ function Home(props) {
           HI. MY NAME IS <span className="name">JOSEPH MAWA</span>
         </h1>
         <p>I AM A FULL STACK DEVELOPER!</p>
+      </div>
+      <div className="arrow-wrapper">
+        <button className="arrow-button">
+          <span className="inner-wrapper">&#8595;</span>
+        </button>
       </div>
     </section>
   );
