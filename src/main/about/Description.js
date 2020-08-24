@@ -4,7 +4,8 @@ function Description() {
   const year = new Date().getFullYear();
   return (
     <section className="description">
-      <h2 id="about">ABOUT ME</h2>
+      <div id="about"></div>
+      <h2 >ABOUT ME</h2>
       <p>
         My name is Joseph Mawa, a web developer from Uganda. I started coding as
         a hobby after graduating college approximately {year - 2012} years ago.

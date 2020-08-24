@@ -7,6 +7,7 @@ function About(props) {
     <div className="about-wrapper">
       <Description />
       <Stack />
+      <div id="projects"></div>
     </div>
   );
 }

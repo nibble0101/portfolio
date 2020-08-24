@@ -6,7 +6,7 @@ const urlFCC = "https://forum.freecodecamp.org/";
 function Projects(props) {
   return (
     <section className="projects-wrapper">
-      <h2 id="projects">PROJECTS</h2>
+      <h2>PROJECTS</h2>
       <p className="description-paragraph">
         Below are some of the projects i have completed. I have plenty of small
         learning projects on{" "}
@@ -45,6 +45,7 @@ function Projects(props) {
           );
         })}
       </div>
+      <div id = "contact"></div>
     </section>
   );
 }

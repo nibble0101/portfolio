@@ -41,7 +41,24 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 1em;
-  position: relative;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.transparent-header{
+    background: transparent;
+}
+
+/* Making sections visible because header is sticky. It blocks some content */
+#contact{
+    height: 30px;
+}
+
+#projects{
+    height: 30px;
+}
+#about{
+    height: 30px;
 }
 .logo {
   color: brown;
