@@ -134,8 +134,7 @@ body {
   
 }
 .arrow-button:hover {
-  background-color: brown;
-  color: yellowgreen;
+  background-color: #aaaaaa;
 }
 .arrow-button:focus{
     outline: 1px solid var(--main-bg-color);
@@ -231,8 +230,7 @@ body {
   font-size: 1.2em;
 }
 .projects-wrapper a {
-  color: var(--header-color-2);
-  text-decoration: none;
+  color: var(--header-bg-color);
   transition: all 1000ms linear;
 }
 .projects-wrapper a:hover {
@@ -283,7 +281,7 @@ body {
   width: 70%;
   padding: 1em;
   margin: auto;
-  color: whitesmoke;
+  color: black;
 }
 .contact-form-wrapper h2 {
   text-align: center;
