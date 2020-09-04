@@ -9,7 +9,7 @@ function Home(props) {
     <section className="home" id="home">
       <div className="about-section">
         <h1>
-          HI. MY NAME IS <span className="name">JOSEPH MAWA</span>
+          HI. MY NAME IS JOSEPH MAWA
         </h1>
         <p>I AM A FULL STACK DEVELOPER!</p>
       </div>
