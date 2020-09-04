@@ -27,15 +27,6 @@ const projects = [
     description: "This is a weather app which displays weather information for a given city/town for the next five days. It is a single page application(SPA) built with React.js and CSS.",
   },
   {
-    name: "WHIZZNIAC",
-    imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/whizzniac.jpg?raw=true",
-    altText: "whizzNiac",
-    projectUrl: "https://whizzniac.netlify.app/",
-    sourceCodeUrl: "https://github.com/nibble0101/whizzniac",
-    key: "whizzNiac",
-    description: "whizzNiac is a Quiz App written in react.js. It consists of quiz from different subject areas with four or two possible solutions whith only one solution correct.",
-  },
-  {
     name: "HTML CODES",
     imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/htmlcodegenerator.png?raw=true",
     altText: "htmlcodegenerator",
