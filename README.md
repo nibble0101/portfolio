@@ -1,10 +1,10 @@
 # Portfolio
 
-This is my portfolio. It is a Single Page Application(SPA) built using [React.js](https://reactjs.org/) and CSS. It is for showcasing web related projects I have completed. It is hosted live on [Nelify](https://www.netlify.com/) and can be viewed from [Here](https://mawa.netlify.app/).
+This is my portfolio. It is built using [React.js](https://reactjs.org/) and CSS. I am using it for showcasing web related projects I have completed. It is hosted live on [Nelify](https://www.netlify.com/) and can be viewed from [Here](https://mawa.netlify.app/).
 
 ## Dependencies
 
-This application was built using [React.js](https://reactjs.org/) and CSS. For details of dependencies, check `package.json` file.
+This application was built using [React.js](https://reactjs.org/) and vanilla CSS. For details of the dependencies, check `package.json` file.
 
 ## Live Project
 
