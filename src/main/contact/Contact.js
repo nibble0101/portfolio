@@ -3,7 +3,7 @@ import React from "react";
 function Contact(props) {
     return <section className = "contact-form-wrapper">
         <h2> GET IN TOUCH </h2>
-        <form name = "contact" action = "POST"  netlify >
+        <form name = "contact" action = "POST" data-netlify = "true" hidden>
             <input type = "text" name = "name" placeholder = "Name" autoComplete  required />
             <input type = "email" name = "email" placeholder = "Email" autoComplete required />
             <textarea  name = "message" placeholder = "Message" required /> 
