@@ -3,10 +3,10 @@ import React from "react";
 function Contact(props) {
     return <section className = "contact-form-wrapper">
         <h2> GET IN TOUCH </h2>
-        <form action = "POST" onSubmit = {() => null} >
-            <input type = "text" name = "name" placeholder = "Name"  required />
-            <input type = "email" name = "email" placeholder = "Email"  required />
-            <textarea  name = "message" placeholder = "Message"  /> 
+        <form action = "POST" name = "contact" data-netlify="true" >
+            <input type = "text" name = "name" placeholder = "Name" autoComplete  required />
+            <input type = "email" name = "email" placeholder = "Email" autoComplete required />
+            <textarea  name = "message" placeholder = "Message" required /> 
             <input type = "submit" value = "SEND" />
         </form>
     </section>
