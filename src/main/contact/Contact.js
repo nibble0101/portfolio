@@ -17,12 +17,14 @@ function Contact(props) {
       setFormFields(prevValues => ({...prevValues, [name]: value }));
   }
   const onSubmitFormHandler = (event) => {
+      const message = { "form-name": "contact", ...formFields };
       fetch("/", {
         method: "POST",
         headers: {"Content-Type": "application/x-www-form-urlencoded"},
-        body: encode({ "form-name": "contact", ...formFields })
+        body: encode(message)
       }).then(() => alert("Success"))
       .catch(err => console.log(err))
+      event.preventDefault();
   }
   return (
     <section className="contact-form-wrapper">
