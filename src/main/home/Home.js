@@ -11,7 +11,7 @@ function Home(props) {
         <h1>
           HI. MY NAME IS <span className="name">JOSEPH MAWA</span>
         </h1>
-        <p>I AM A FULL STACK DEVELOPER!</p>
+        <p>I AM A WEB DEVELOPER AND TECHNICAL WRITER!</p>
       </div>
       <div className="arrow-wrapper">
         <button className="arrow-button" onClick = {arrowClickHandle}>

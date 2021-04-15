@@ -2,6 +2,15 @@ import React from "react";
 function Socials() {
   return (
     <div className="social-media-wrapper">
+      <div className="linkedin">
+        <a
+          href="https://www.linkedin.com/in/joseph-mawa-465000203/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <i className="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
       <div className="twitter">
         <a
           href="https://twitter.com/MJMAWA"
@@ -9,11 +18,6 @@ function Socials() {
           rel="noreferrer noopener"
         >
           <i className="fab fa-twitter" aria-hidden="true"></i>
-        </a>
-      </div>
-      <div className="facebook">
-        <a href="#" target="_blank" rel="noreferrer noopener">
-          <i className="fab fa-facebook" aria-hidden="true"></i>
         </a>
       </div>
       <div className="github">

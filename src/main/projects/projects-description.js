@@ -40,7 +40,7 @@ const projects = [
     imageUrl: "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/htmlcodegenerator.png?raw=true",
     altText: "htmlcodegenerator",
     projectUrl: "https://htmlcodegenerator.netlify.app/",
-    sourceCodeUrl: "",
+    sourceCodeUrl: "https://github.com/nibble0101/HTML-Codes",
     key: "htmlcodegenerator",
     description: "htmlCodes is a simple app which displays a list of characters and their corresponding HTML codes. It was built using html, vanilla javascript and CSS",
   },

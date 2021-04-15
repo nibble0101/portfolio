@@ -33,7 +33,7 @@ html {
 }
 body {
   background-color: var(--body-bg-color-2);
-  font-family: simplifica;
+  font-family: simplifica, "Open Sans Condensed", sans-serif;
 }
 .header {
   background-color: var(--header-bg-color);
@@ -44,6 +44,7 @@ body {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  z-index: 999;
 }
 .transparent-header{
     background: transparent;
@@ -61,7 +62,7 @@ body {
     height: 30px;
 }
 .logo {
-  color: brown;
+  color: #fc9393;
 }
 .logo .surname-text {
   color: var(--header-color-1);

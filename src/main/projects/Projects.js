@@ -8,7 +8,7 @@ function Projects(props) {
     <section className="projects-wrapper">
       <h2>PROJECTS</h2>
       <p className="description-paragraph">
-        Below are some of the projects i have completed. I have plenty of small
+        Below are some of the projects I have completed. I have plenty of small
         learning projects on{" "}
         <a href="https://codepen.io/" target="_blank" rel="noreferrer noopener">
           {" "}
