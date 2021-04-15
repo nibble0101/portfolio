@@ -23,7 +23,6 @@ function Contact(props) {
         body: encode({ "form-name": "contact", ...formFields })
       }).then(() => alert("Success"))
       .catch(err => console.log(err))
-      event.preventDefault();
   }
   return (
     <section className="contact-form-wrapper">
