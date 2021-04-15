@@ -313,6 +313,7 @@ textarea {
 
 textarea {
   min-height: 30vh;
+  resize: vertical;
 }
 /* Styling Projects footer*/
 .footer {
