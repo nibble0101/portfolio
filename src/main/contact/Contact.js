@@ -22,14 +22,16 @@ function Contact(props) {
         method: "POST",
         headers: {"Content-Type": "application/x-www-form-urlencoded"},
         body: encode(message)
-      }).then(() => alert("Success"))
+      }).then(() =>{
+          console.log("Message sent");
+      })
       .catch(err => console.log(err))
       event.preventDefault();
   }
   return (
     <section className="contact-form-wrapper">
       <h2> GET IN TOUCH </h2>
-      <form onSubmit = {onSubmitFormHandler}>
+      <form onSubmit = {onSubmitFormHandler} method="POST" netlify>
         <input
           type="text"
           name="name"
