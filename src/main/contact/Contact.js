@@ -5,7 +5,7 @@ function Contact(props) {
   return (
     <section className="contact-form-wrapper">
       <h2> GET IN TOUCH </h2>
-      <form  method="POST" name="contact">
+      <form  method="post" name="contact">
         <input type="hidden" name="form-name" value="contact" />
         <input
           type="text"
