@@ -9,8 +9,8 @@ function Description(props) {
       </h3>
       <p className="image-descrition"> {props.description} </p>
       <p className="source-code-link">
-        <a href={props.sourceCodeUrl} target="_blank" rel="noreferrer noopener">
-          <i className="fab fa-github"></i>
+        <a href={props.sourceCodeUrl} target="_blank" aria-label="github" rel="noreferrer noopener">
+          <i className="fab fa-github" aria-hidden="true"></i>
         </a>
       </p>
     </div>

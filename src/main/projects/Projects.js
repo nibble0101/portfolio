@@ -15,14 +15,14 @@ function Projects(props) {
           codepen{" "}
         </a>{" "}
         completed as part of <a href={urlFCC}> Free Code Camp Curriculum </a>.
-        You can view them{" "}
+        You can view them on{" "}
         <a
           href="https://codepen.io/nibble0101"
           target="_blank"
           rel="noreferrer noopener"
         >
           {" "}
-          here{" "}
+          codepen{" "}
         </a>
         .
       </p>
