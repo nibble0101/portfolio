@@ -354,6 +354,12 @@ textarea {
 .footer .copy-right .copy-right-symbol {
   color: brown;
 }
+@media screen and (max-width: 550px) {
+  .home .social-media-wrapper{
+    display: none;
+  }
+  
+}
 
 @media screen and (max-width: 800px) {
   .hamburger-menu {
