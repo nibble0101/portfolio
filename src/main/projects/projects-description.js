@@ -22,17 +22,6 @@ const projects = [
       "whizzNiac is a Quiz App written in react.js. It consists of quiz from different subject areas with four or two possible solutions whith only one solution correct.",
   },
   {
-    name: "FILMMAZE",
-    imageUrl:
-      "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/filmmaze.jpg?raw=true",
-    altText: "filMaze",
-    projectUrl: "https://filmmaze.netlify.app/",
-    sourceCodeUrl: "https://github.com/nibble0101/FilmMaze",
-    key: "filmMaze",
-    description:
-      "FilmMaze is a Single Page Application(SPA) which displays a list of Movies, TV Shows and Personalities in the movie industry. It was built using React.js and CSS.",
-  },
-  {
     name: "smart shopping list",
     imageUrl:
       "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/shopping-app.png?raw=true",
@@ -42,6 +31,17 @@ const projects = [
     key: "Smart-Shopping-List",
     description:
       "This ia a shopping app where a user can create a shopping list, delete items from the list or join an existing list. It was built using React.js, React router, Firebase and Tailwind CSS.",
+  },
+  {
+    name: "FILMMAZE",
+    imageUrl:
+      "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/filmmaze.jpg?raw=true",
+    altText: "filMaze",
+    projectUrl: "https://filmmaze.netlify.app/",
+    sourceCodeUrl: "https://github.com/nibble0101/FilmMaze",
+    key: "filmMaze",
+    description:
+      "FilmMaze is a Single Page Application(SPA) which displays a list of Movies, TV Shows and Personalities in the movie industry. It was built using React.js and CSS.",
   },
   {
     name: "CLOUDYGEM",
