@@ -33,6 +33,17 @@ const projects = [
       "FilmMaze is a Single Page Application(SPA) which displays a list of Movies, TV Shows and Personalities in the movie industry. It was built using React.js and CSS.",
   },
   {
+    name: "smart shopping list",
+    imageUrl:
+      "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/shopping-app.png?raw=true",
+    altText: "Smart Shopping List",
+    projectUrl: "https://smart-shopping-list.netlify.app/",
+    sourceCodeUrl: "https://github.com/nibble0101/FilmMaze",
+    key: "Smart-Shopping-List",
+    description:
+      "This ia a shopping app where a user can create a shopping list, delete items from the list or join an existing list. It was built using React.js, React router, Firebase and Tailwind CSS.",
+  },
+  {
     name: "CLOUDYGEM",
     imageUrl:
       "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/cloudygem.png?raw=true",
