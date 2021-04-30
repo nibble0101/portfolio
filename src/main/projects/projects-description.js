@@ -22,7 +22,7 @@ const projects = [
       "whizzNiac is a Quiz App written in react.js. It consists of quiz from different subject areas with four or two possible solutions whith only one solution correct.",
   },
   {
-    name: "smart shopping list",
+    name: "SMART SHOPPING LIST",
     imageUrl:
       "https://github.com/nibble0101/portfolio/blob/master/src/main/projects/images/shopping-app.png?raw=true",
     altText: "Smart Shopping List",
